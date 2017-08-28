@@ -28,6 +28,6 @@ camera.on("stop", function( err, timestamp ){
 camera.start();
 
 // test stop() method before the full 12 seconds is up
-setTimeout(function(){
-	camera.stop();
-}, 10000);
+// setTimeout(function(){
+// 	camera.stop();
+// }, 10000);
